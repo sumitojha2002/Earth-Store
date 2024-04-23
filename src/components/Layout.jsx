@@ -1,6 +1,7 @@
 import React from "react";
 import "../Layout.css";
 import { Link } from "react-router-dom";
+import { Cursor } from "mongoose";
 
 function Layout() {
   return (
@@ -34,10 +35,20 @@ function Layout() {
               </Link>
             </li>
             <li>
-              <span className="material-symbols-outlined">shopping_cart</span>
+              <span
+                className="material-symbols-outlined"
+                style={{ cursor: `pointer` }}
+              >
+                shopping_cart
+              </span>
             </li>
             <li>
-              <span className="material-symbols-outlined">person</span>
+              <span
+                className="material-symbols-outlined"
+                style={{ cursor: `pointer` }}
+              >
+                person
+              </span>
             </li>
           </ul>
         </div>

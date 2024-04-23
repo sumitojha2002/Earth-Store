@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import "../Home.css";
 import Card from "../components/Card";
+import Form from "../components/Form";
 
 function Home() {
   let i = () => {
@@ -19,9 +20,10 @@ function Home() {
           <button id="shopNow">SHOP NOW</button>
         </div>
       </div>
-      <div>
+      <div className="card-display">
         <Card />
       </div>
+      <hr style={{ color: `#d3d3d3` }} />
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.card {
+  margin: 0px 0px 0px 17px;
+  height: 496px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.card-main {
+  align-items: center;
+  height: 600px;
+
+  display: flex;
+}
+
+img {
+  cursor: pointer;
+  width: 353px;
+  height: 353px;
+}
+
+.title {
+  margin: 10px 0px 10px 0px;
+  color: grey;
+}
+
+.name {
+  margin: 10px 0px 10px 0px;
+}
