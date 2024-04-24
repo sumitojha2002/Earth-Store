@@ -1,0 +1,19 @@
+{
+  "customerFeedback": [
+    {
+      "id": 1,
+      "message": "Fast shipping and excellent customer service. The product was even better than expected. I will definitely be a returning customer.",
+      "name": "JENNIFER LEWIS"
+    },
+    {
+      "id": 2,
+      "message": "Great user experience on your website. I found exactly what I was looking for at a great price. I will definitely be telling my friends.",
+      "name": "ALICIA HEART"
+    },
+    {
+      "id": 3,
+      "message": "Thank you for the excellent shopping experience. It arrived quickly and was exactly as described. I will definitely be shopping with you again in the future.",
+      "name": "JUAN CARLOS"
+    }
+  ]
+}

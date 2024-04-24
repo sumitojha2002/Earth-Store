@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import "../Home.css";
 import Card from "../components/Card";
 import Form from "../components/Form";
+import Customer from "../components/Costumer";
 
 function Home() {
   let i = () => {
@@ -24,6 +25,9 @@ function Home() {
         <Card />
       </div>
       <hr style={{ color: `#d3d3d3` }} />
+      <div className="card-display">
+        <Customer />
+      </div>
     </div>
   );
 }
