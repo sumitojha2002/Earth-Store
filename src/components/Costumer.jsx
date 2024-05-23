@@ -25,7 +25,7 @@ function Customer() {
             >
               format_quote
             </span>
-            <p>{customer.message}</p>
+            <p style={{ paddingRight: "10px" }}>{customer.message}</p>
             {customer.id === 1 && (
               <img
                 src={customerOne}
