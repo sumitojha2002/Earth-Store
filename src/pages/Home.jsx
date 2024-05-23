@@ -8,7 +8,6 @@ import Customer from "../components/Costumer";
 function Home() {
   let i = () => {
     for (i = 0; i < 3; i++) {
-      console.log("Shikre");
     }
   };
   return (

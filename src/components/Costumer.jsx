@@ -15,33 +15,42 @@ function Customer() {
 
   return (
     <div>
-      <h1>What Our Customers Say</h1>
+      <h1 className="customer-title">What Our Customers Say</h1>
       <div className="customer-feedback-wrapper">
         {customers.map((customer) => (
           <div className="customer-feedback" key={customer.id}>
+            <span
+              class="material-symbols-outlined"
+              style={{ fontSize: "40px", color: "green" }}
+            >
+              format_quote
+            </span>
             <p>{customer.message}</p>
             {customer.id === 1 && (
               <img
                 src={customerOne}
-                style={{ width: `30px`, height: `30px` }}
+                className="imageProfile"
+                style={{ width: `40px`, height: `40px` }}
                 id={1}
               />
             )}
             {customer.id === 2 && (
               <img
+                className="imageProfile"
                 src={customerTwo}
-                style={{ width: `30px`, height: `30px` }}
+                style={{ width: `40px`, height: `40px` }}
                 id={2}
               />
             )}
             {customer.id === 3 && (
               <img
+                className="imageProfile"
                 id={3}
                 src={customerThree}
-                style={{ width: `30px`, height: `30px` }}
+                style={{ width: `40px`, height: `40px` }}
               />
             )}
-            <p>{customer.name}</p>
+            <p style={{ fontSize: "15px" }}>{customer.name}</p>
           </div>
         ))}
       </div>
